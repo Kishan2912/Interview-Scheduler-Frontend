@@ -1,0 +1,73 @@
+.headings {
+  text-align: center;
+  color: rgb(18, 172, 255);
+}
+.schHead {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* display: inline-block; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.schDateTime {
+  margin: 1px;
+}
+.schMulti {
+  /* margin: 50px; */
+  width: 30%;
+}
+
+.interviewListhead {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  color: rgb(139, 15, 36);
+  font-size: 20px;
+}
+
+.interviewList {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.interviewListheading {
+  margin-left: 6%;
+  color: red;
+}
+
+.scheButoon {
+  background-color: #2cddae; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.editButton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.currParti {
+  margin-left: 4%;
+  font-size: 20px;
+}
